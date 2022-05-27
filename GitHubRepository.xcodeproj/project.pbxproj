@@ -11,6 +11,7 @@
 		C01F215B2840A56A004CE92B /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F215A2840A56A004CE92B /* RepositoryListViewController.swift */; };
 		C01F215D2840A614004CE92B /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F215C2840A614004CE92B /* RepositoryListCell.swift */; };
 		C01F21602840A695004CE92B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C01F215F2840A695004CE92B /* SnapKit */; };
+		C01F2162284109D1004CE92B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F2161284109D1004CE92B /* Repository.swift */; };
 		C07278CB283666460082C489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07278CA283666460082C489 /* AppDelegate.swift */; };
 		C07278CD283666460082C489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07278CC283666460082C489 /* SceneDelegate.swift */; };
 		C07278D4283666470082C489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07278D3283666470082C489 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		963600A02566BB4254E1EAB5 /* Pods_GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01F215A2840A56A004CE92B /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		C01F215C2840A614004CE92B /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		C01F2161284109D1004CE92B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		C07278C7283666460082C489 /* GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07278CA283666460082C489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C07278CC283666460082C489 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				C07278CC283666460082C489 /* SceneDelegate.swift */,
 				C01F215A2840A56A004CE92B /* RepositoryListViewController.swift */,
 				C01F215C2840A614004CE92B /* RepositoryListCell.swift */,
+				C01F2161284109D1004CE92B /* Repository.swift */,
 				C07278D3283666470082C489 /* Assets.xcassets */,
 				C07278D5283666470082C489 /* LaunchScreen.storyboard */,
 				C07278D8283666470082C489 /* Info.plist */,
@@ -215,6 +218,7 @@
 			files = (
 				C07278CB283666460082C489 /* AppDelegate.swift in Sources */,
 				C07278CD283666460082C489 /* SceneDelegate.swift in Sources */,
+				C01F2162284109D1004CE92B /* Repository.swift in Sources */,
 				C01F215B2840A56A004CE92B /* RepositoryListViewController.swift in Sources */,
 				C01F215D2840A614004CE92B /* RepositoryListCell.swift in Sources */,
 			);
